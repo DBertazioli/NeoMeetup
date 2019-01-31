@@ -2,7 +2,7 @@ Per evitare che GetFile elimini i dati, conviene fare una cosa del genere:
 
 1) Creare link simbolici ai dati che abbiamo, in un altra cartella. Suppongo di avere i dati in "rsvp-data", creo link simbolici ai contenuti della cartella in una nuova directory link_rsvp-data
 
->cp -rs /path/to/rsvp-data /path/to/link_rsvp-data
+>cp -rs /path/to/rsvp-data /path/to/link_rsvp-data/
 
 2) Per sicurezza, dò tutti i permessi del mondo così GetFile non rogna
 
