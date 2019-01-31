@@ -1,0 +1,3 @@
+Count files in a directory
+
+> ls -1 | wc -l
