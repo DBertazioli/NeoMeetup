@@ -1,3 +1,8 @@
 Count files in a directory
 
 > ls -1 | wc -l
+
+
+Maybe useful to create a symbolic link in your home (~/) for the kafka bin
+
+>ln -s /usr/hdf/current/kafka-broker/bin bin
