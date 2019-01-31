@@ -1,0 +1,22 @@
+see the size of a kafka topic
+
+> ./kafka-log-dirs.sh  --bootstrap-server sandbox-hdf.hortonworks.com:6667  --topic-list 'project_1' --describe | grep '^{' | jq '[ ..|.size? | numbers ] | add'
+
+
+
+see/change retention time of a currently existing topic
+
+see retention time
+
+> bin/kafka-topics.sh --describe --zookeeper sandbox-hdf.hortonworks.com:2181 --topic project_1
+
+change retention time
+
+> bin/kafka-topics.sh --zookeeper  sandbox-hdf.hortonworks.com:2181 --alter --topic project_1 --config retention.ms=86400000
+
+less deprecated cmd
+
+> bin/kafka-configs.sh --zookeeper sandbox-hdf.hortonworks.com:2181 --alter --entity-type topics --entity-name project_1 --add-config retention.ms=86400000
+
+
+For new topics, just set the log.retention.hours to "-1" in the ambari kafka-broker configs!
