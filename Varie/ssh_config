@@ -3,18 +3,10 @@ ServerAliveInterval 10
 
 Host hdf
   User root
-  HostName hdplez35.northeurope.cloudapp.azure.com 
+  HostName <yourhostname> 
   Port 2202
 
 Host vm
   User studente
-  HostName hdplez35.northeurope.cloudapp.azure.com 
+  HostName <yourhostname> 
 
-Host fabri_vm
-  User studente
-  HostName x2hdplez31.northeurope.cloudapp.azure.com 
-
-Host fabri_hdf
-  User root
-  HostName x2hdplez31.northeurope.cloudapp.azure.com 
-  Port 2202
