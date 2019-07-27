@@ -4,4 +4,4 @@
 
 ## &nbsp;
 
-Going to upload stuffs soon, stay tuned!
+A version of the ArMeetup Project (https://github.com/DBertazioli/ARmeetup, lite version, or https://gitlab.com/DBertazioli/armeetup, full version) exploiting the native graph storage of Neo4j.
