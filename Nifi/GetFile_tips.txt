@@ -1,0 +1,23 @@
+Per evitare che GetFile elimini i dati, conviene fare una cosa del genere:
+
+1) Creare link simbolici ai dati che abbiamo, in un altra cartella. Suppongo di avere i dati in "rsvp-data", creo link simbolici ai contenuti della cartella in una nuova directory link_rsvp-data
+
+>cp -rs /path/to/rsvp-data /path/to/link_rsvp-data/
+
+2) Per sicurezza, dò tutti i permessi del mondo così GetFile non rogna
+
+> chmod -R 777 /path/to/rsvp-data
+> chmod -R 777 /path/to/link_rsvp-data
+
+3) Nel GetFile, metto come input directory proprio /path/to/link_rsvp-data: in questo modo il GetFile di Nifi legge i dati (tramite i link) ed elimina solo i link.
+
+
+
+
+
+SPLITTARE IN PIù cartelle
+
+
+nella cartella dei link (>cd /path/to/link_rsvp-data) eseguire
+
+> ls -1  |  sort -n | head -<numero_file_da muovere> | xargs -i mv "{}" /path/to/subfolder/

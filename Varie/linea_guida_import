@@ -1,0 +1,59 @@
+setup nifi /kafka etccc
+
+-----
+csv_create.sh
+
+Script py
+
+create 	member.csv: 				make_member_csv.py
+
+create 	group.csv: 				make_group_csv.py
+
+create 	event.csv: 				make_event_csv.py
+
+create 	venues.csv: 				make_venue_csv.py
+
+
+create 	relations_topics.csv: 			relations_members-groups-topics.py
+
+---Update_topic_id.py (che genera i seguenti csv) da usare solo una volta ottenuti i "decleared" topics dalla REST api
+---per il momento usare create_topic_id.py
+create	Create_topic_nodes.csv (csv per creare i nodi topic su neo), 
+	relations_topic_with_id.csv (csv per le relazioni member-[HAS_INTEREST_IN]->topic) 
+	relations_decleared_topics.csv (csv per le relazioni member-[DECLEARED_INTEREST_IN]->topic): Update_topic_id.py 
+
+
+create 	relations_groups-events.csv: 		relations_group-event.py
+
+create 	relations_events-venues.csv: 		relations_event-venue.py
+
+create 	relations_member-event-response_new.csv: relations_members-event-response_new.py
+
+create 	relations_members-groups.csv: 		relations_member-group.py
+---
+
+create sy_link to /var/lib/neo4j/import/ (or use rsync)
+
+---
+cypher_exe.sh
+
+cypher
+
+create nodes
+
+members: 	create_members_from_csv.cql
+groups: 	create_groups_from_csv.cql
+topics: 	create_topics_from_csv.cql #check for new csv of topics
+events: 	create_events_from_csv.cql
+venues: 	create_venues_from_csv.cql
+
+
+relations
+
+relation_event_group.cql
+relation_event_venue.cql
+relation_group_topics.cql
+relation_member_event.cql
+relation_member_group.cql
+relation_member_topics.cql #ne servono due, uno per HAS_INTEREST_IN e uno per DECLEARED_INTEREST_IN
+

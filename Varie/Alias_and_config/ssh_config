@@ -1,0 +1,12 @@
+ServerAliveCountMax 3
+ServerAliveInterval 10
+
+Host hdf
+  User root
+  HostName <yourhostname> 
+  Port 2202
+
+Host vm
+  User studente
+  HostName <yourhostname> 
+

@@ -1,0 +1,22 @@
+##Per installare screen
+> yum -y install screen
+
+##Per aprire un nuovo screen con nome personalizzato
+> screen -S <name_screen>
+
+##Per uscire da uno screen lasciando il processo in backgroud all'interno
+
+> "Ctrl+A" --> Fa entrare in command mod.
+> A questo punto premere "d" per fare detach.
+
+##Per rientrare in uno screen da cui si è usciti.
+
+> screen -r <name_screen>
+
+##Per chiudere uno screen che non ci serve più
+
+> screen -XS <name_screen> kill
+
+##Per retach su uno screen attached!
+
+> screen -dr

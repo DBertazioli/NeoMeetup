@@ -1,0 +1,19 @@
+to install jupyter, simply
+
+>pip install jupyter
+
+>pip install --upgrade jupyter
+
+>jupyter notebook --generate-config
+
+poi, copiare il file che trovate in questa cartella ("jupyter_notebook_config.py") in 
+
+~/.jupyer/
+
+in modo tale che sovrascriva il precedente file di config
+
+provate poi ad avviarlo (simply jupyter notebook, no alias required this time) e aprirlo dal vostro browser come
+
+>  <your_ip>:8888
+
+Hopefully will work!

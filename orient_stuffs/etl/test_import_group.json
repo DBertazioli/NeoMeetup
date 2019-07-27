@@ -1,0 +1,18 @@
+{
+  "source": { "file": { "path": "/root/NeoMeetup/csv/struttura/group.csv" } },
+  "extractor": { "csv": {} },
+  "transformers": [
+    { "vertex": { "class": "Group" } }
+  ],
+  "loader": {
+    "orientdb": {
+       "dbURL": "plocal:/opt/orientdb/databases/neomeetup",
+       "dbType": "graph",
+       "classes": [
+         {"name": "Group", "extends": "V"},
+         ], "indexes": [
+         {"class":"Group", "fields":["group_id:string"], "type":"UNIQUE" }
+       ]
+    }
+  }
+}

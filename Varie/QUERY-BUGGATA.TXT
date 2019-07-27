@@ -1,0 +1,4 @@
+match (t:Topic)<-[:DEALS_WITH ]-(g:Group)-[:HOSTED_EVENT]-(e:Event)<-[:WILL_PARTECIPATES]-(m:Member)
+where g.id='30801933'
+return e.name,e.id, collect(t.name) as topic_list ,g.name, g.id, count(m) as partecipants_count
+limit 10

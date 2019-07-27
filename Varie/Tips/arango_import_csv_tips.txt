@@ -1,0 +1,38 @@
+## MANUAL FOR NOOBS
+
+piccoli tips per import csv in arangodb
+
+- tirare su un database (una volta acceduti in localhost:porta_arango, andare in voce -> database, crea nuovo --> <nome_db> )
+
+- preparazione csv per import 
+	
+	esempio: member.csv/group.csv/relations_members-groups.csv
+
+	cambiare nome colonna
+	member_id -> _key
+	group_id -> _key
+
+	arangodb crea degli attributi di sistema al momento della creazione del documento tra cui _key che è l'identificatore del documento,
+	se noi invece lo specifichiamo imponiamo la nostra chiave. Al momento della creazione crea anche _id, composto da "nome_collection"+"/"+_key,
+	attributo fondamentale per effettuare il match per instaurare le relazioni, per questo motivo occorre definire il _key. 
+
+	nelle relative relazioni bisogna aggiungere <nome_collection>/id per entrambe le colonne
+	row -> collection1_name/id,collection2_name/id
+	inoltre cambiare nome colonne in _from e _to, parole chiave di arangodb per creare gli edge direzionati
+
+- import da shell windows:
+
+1. dirigersi in path_to_program/arango/../bin
+
+2. IMPORT MEMBER --> arangoimp.exe C:\path\member_arango.csv  --type=csv --server.database your_db_name --collection your_collection_name --create-collection true
+
+3. IMPORT GROUP --> arangoimp.exe C:\path\group_arango.csv  --type=csv --server.database your_db_name --collection your_collection_name --create-collection true
+
+4. IMPORT REL --> arangoimp.exe C:\path\rel-mem-gro.csv  --type=csv --server.database your_db_name --collection your_collection_name --create-collection true --create-collection-type edge
+
+in webapp arango nella sezione graph:
+
+new graph --> 	edge definitions: member-of
+				fromCollections: member
+				to<Collections: group
+

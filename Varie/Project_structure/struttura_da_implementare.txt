@@ -1,0 +1,34 @@
+*venue:
+	venue_name
+	lon
+	lat
+	venue_id
+
+response
+
+guests
+
+member
+	member_id
+	member_name
+
+mtime
+
+event
+	event_name
+	event_id
+	time
+	event_url
+
+group
+	group_topics
+		urlkey
+	group_city
+	group_country
+	group_id
+	group_name
+	group_lon
+	group_lat
+ 	group_urlname
+	*group_state
+

@@ -1,0 +1,1 @@
+ ssh -o "ProxyCommand ssh -W %h:%p studente@<your_ip>" root@<your ip> -p 2202 

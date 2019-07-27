@@ -1,0 +1,20 @@
+{
+  "source": { "file": { "path": "/root/NeoMeetup/csv/struttura/relations_members-groups.csv" } },
+  "extractor": { "csv": {} },
+  "transformers": [
+    { "vertex": { "class": "Member" } },
+    { "edge" : { "class" : "MEMBER_OF", "joinFieldName" : "group_id", "lookup" : "Group.group_id"} }
+  ],
+  "loader": {
+    "orientdb": {
+       "dbURL": "plocal:/opt/orientdb/databases/neomeetup",
+       "dbType": "graph",
+       "classes": [
+         {"name": "Member", "extends": "V"},
+	 {"name" : "MEMBER_OF", "extends" : "E"}
+         ], "indexes": [
+         {"class":"Member", "fields":["member_id:integer"], "type":"UNIQUE" }
+       ]
+    }
+  }
+}

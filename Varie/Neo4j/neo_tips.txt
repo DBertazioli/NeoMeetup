@@ -1,0 +1,50 @@
+######
+to install neo4j, simply exec:
+    
+    
+    > rpm --import https://debian.neo4j.org/neotechnology.gpg.key
+poi
+
+    > cat <<EOF>  /etc/yum.repos.d/neo4j.repo
+    
+e si apre una sottoshell, nella quale potete copiare e incollare direttamente le seguenti righe
+
+        [neo4j]
+        name=Neo4j RPM Repository
+        baseurl=https://yum.neo4j.org/stable
+        enabled=1
+        gpgcheck=1
+        EOF
+
+e premere invio
+
+a questo punto, facendo 
+    >yum -y install neo4j
+
+dovrebbe installarsi neo4j
+
+
+
+##########
+
+to properly config neo4j, 
+
+copia il file di configurazione presente in questa cartella ("neo4j.conf") in
+/etc/neo4j/
+sovrascrivendo quello precedente
+
+poi va fatto il port mapping, per cui
+
+1) login ssh alla VM
+2) spegni la sandbox HDF, se attiva
+2) vai nella cartella HDP/sandbox/proxy/conf.stream.d  e apri il file tcp-hdf.conf 
+3) copia i blocchi che hanno all'interno le porte 7474 e 7687
+4) vai nella cartella HDF/sandbox/proxy/conf.stream.d ( come prima, ma nella folder HDF)
+5) aggiungi i due blocchi che hai copiato all'interno del file tcp-hdf.conf (ha lo stesso nome di quello di prima), vicino agli altri blocchetti uguali, e salva
+6) apri il file HDF/docker-compose.yml
+7) nella sezione ports di proxy-hdf, aggiungi:
+  - 7474:7474
+  - 7687:7687
+(Ci son tante righe con questo formato, mantieni la stessa indentazione).
+
+riavvia HDF e prega in dios

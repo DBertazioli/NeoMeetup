@@ -1,0 +1,12 @@
+put this friendly alias in your .bash(rc) config file
+
+>alias cypher='cypher-shell -u <your_username> -p <your_psw> --debug --format verbose' 
+
+deault username is neo4j (as well as default pswd is, but better to change it asap xD)
+
+as always, makin the alias working might require exec
+
+>source ~/.bashrc
+
+
+

@@ -1,0 +1,21 @@
+se all'avvio di neo qualcosa va storto, e se dopo aver fatto
+
+>neo4j console
+
+vengono fuori simpatiche righe di oggetti java in cui compare molteplici volte la parola "locker" et similia, conviene
+
+
+1) cercare eventuali processi in esecuzione legati a neo4j
+
+>ps -ef |grep neo4j
+
+2) killarli, facendo prima 
+
+>kill <id_neo_proc>
+
+e se non muoiono così allora facendo 
+
+>kill -9 <id_neo_proc>
+
+dopo aver fatto ciò facendo "neo4j start"  si avvia tutto decentemente
+

@@ -1,0 +1,745 @@
+{
+  "venue": {
+    "venue_name": "Phil Foster Park",
+    "lon": -80.041481,
+    "lat": 26.784731,
+    "venue_id": 13027532
+  },
+  "visibility": "public",
+  "response": "yes",
+  "guests": 0,
+  "member": {
+    "member_id": 11211390,
+    "photo": "https://secure.meetupstatic.com/photos/member/6/7/3/5/thumb_21506421.jpeg",
+    "member_name": "🐠🏄‍♂️⛵️DAVID🏌️‍♂️⛷🚴‍♂️🧗‍♂️"
+  },
+  "rsvp_id": 1763285152,
+  "mtime": 1545782699258,
+  "event": {
+    "event_name": "Photo Dive at Blue Heron Bridge",
+    "event_id": "257406931",
+    "time": 1545834600000,
+    "event_url": "https://www.meetup.com/BeachDivers/events/257406931/"
+  },
+  "group": {
+    "group_topics": [
+      {
+        "urlkey": "scuba-diving",
+        "topic_name": "Scuba Diving"
+      },
+      {
+        "urlkey": "snorkeling",
+        "topic_name": "Snorkeling"
+      },
+      {
+        "urlkey": "environmental-awareness",
+        "topic_name": "Environmental Awareness"
+      },
+      {
+        "urlkey": "scuba-instruction",
+        "topic_name": "Scuba Instruction"
+      },
+      {
+        "urlkey": "learn-to-scuba-dive",
+        "topic_name": "Learn to Scuba Dive"
+      },
+      {
+        "urlkey": "marine-ecology",
+        "topic_name": "Marine Ecology"
+      },
+      {
+        "urlkey": "scuba-lessons",
+        "topic_name": "Scuba Lessons"
+      },
+      {
+        "urlkey": "discover-scuba-diving",
+        "topic_name": "Discover Scuba Diving"
+      },
+      {
+        "urlkey": "beach-diving",
+        "topic_name": "Beach Diving"
+      },
+      {
+        "urlkey": "scuba-diving-adventures",
+        "topic_name": "Scuba Diving Adventures"
+      },
+      {
+        "urlkey": "scuba-diving-wrecks-and-reefs",
+        "topic_name": "Scuba Diving wrecks and reefs"
+      },
+      {
+        "urlkey": "scuba-diving-safety-education",
+        "topic_name": "Scuba Diving Safety & Education"
+      }
+    ],
+    "group_city": "Hollywood",
+    "group_country": "us",
+    "group_id": 7764982,
+    "group_name": "South Florida Beach Divers",
+    "group_lon": -80.15,
+    "group_urlname": "BeachDivers",
+    "group_state": "FL",
+    "group_lat": 26.02
+  }
+}
+{
+  "venue": {
+    "venue_name": "G & R (Germantown and Rex)",
+    "lon": -75.20915,
+    "lat": 40.077435,
+    "venue_id": 16373192
+  },
+  "visibility": "public",
+  "response": "no",
+  "guests": 0,
+  "member": {
+    "member_id": 7646285,
+    "photo": "https://secure.meetupstatic.com/photos/member/b/c/5/e/thumb_34908222.jpeg",
+    "member_name": "meredith"
+  },
+  "rsvp_id": 1763099670,
+  "mtime": 1545827677229,
+  "event": {
+    "event_name": "FORT WASHINGTON STATE PARK AND GREEN RIBBON TRAIL, 19031",
+    "event_id": "255756775",
+    "time": 1546096500000,
+    "event_url": "https://www.meetup.com/Batona-Hiking-Club/events/255756775/"
+  },
+  "group": {
+    "group_topics": [
+      {
+        "urlkey": "hiking-backpacking",
+        "topic_name": "Hiking & Backpacking"
+      },
+      {
+        "urlkey": "day-hikes",
+        "topic_name": "Day hikes"
+      },
+      {
+        "urlkey": "wilderness-hikes",
+        "topic_name": "Wilderness Hikes"
+      },
+      {
+        "urlkey": "trail-walks",
+        "topic_name": "Trail Walks"
+      },
+      {
+        "urlkey": "volunteer-trail-maintenance",
+        "topic_name": "Volunteer Trail Maintenance"
+      }
+    ],
+    "group_city": "Philadelphia",
+    "group_country": "us",
+    "group_id": 10466232,
+    "group_name": "BATONA Hiking Club of Philadelphia",
+    "group_lon": -75.2,
+    "group_urlname": "Batona-Hiking-Club",
+    "group_state": "PA",
+    "group_lat": 39.96
+  }
+}
+{
+  "visibility": "public",
+  "response": "yes",
+  "guests": 0,
+  "member": {
+    "member_id": 266396768,
+    "photo": "https://secure.meetupstatic.com/photos/member/c/8/7/a/thumb_281871322.jpeg",
+    "member_name": "Sandra"
+  },
+  "rsvp_id": 1763288598,
+  "mtime": 1545785377241,
+  "event": {
+    "event_name": "Xmas Welcome wednesday",
+    "event_id": "fchlnlyxqbjc",
+    "time": 1545802200000,
+    "event_url": "https://www.meetup.com/WellingtonOnBoard/events/256971911/"
+  },
+  "group": {
+    "group_topics": [
+      {
+        "urlkey": "tabletop-role-playing-and-board-games",
+        "topic_name": "Tabletop Role Playing and Board Games"
+      },
+      {
+        "urlkey": "social",
+        "topic_name": "Social"
+      },
+      {
+        "urlkey": "fun-times",
+        "topic_name": "Fun Times"
+      },
+      {
+        "urlkey": "gaming",
+        "topic_name": "Gaming"
+      },
+      {
+        "urlkey": "board-games",
+        "topic_name": "Board Games"
+      },
+      {
+        "urlkey": "games",
+        "topic_name": "Games"
+      },
+      {
+        "urlkey": "cardgame",
+        "topic_name": "Card Games"
+      },
+      {
+        "urlkey": "roleplaying-games-rpgs",
+        "topic_name": "Roleplaying Games (RPGs)"
+      },
+      {
+        "urlkey": "strategy-games",
+        "topic_name": "Strategy Games"
+      },
+      {
+        "urlkey": "socialnetwork",
+        "topic_name": "Social Networking"
+      },
+      {
+        "urlkey": "settlers",
+        "topic_name": "Settlers of Catan"
+      },
+      {
+        "urlkey": "carcassonne",
+        "topic_name": "Carcassonne"
+      }
+    ],
+    "group_city": "Wellington",
+    "group_country": "nz",
+    "group_id": 4641222,
+    "group_name": "Wellington On Board",
+    "group_lon": 174.78,
+    "group_urlname": "WellingtonOnBoard",
+    "group_lat": -41.28
+  }
+}
+{
+  "visibility": "public",
+  "response": "yes",
+  "guests": 4,
+  "member": {
+    "member_id": 11962869,
+    "photo": "https://secure.meetupstatic.com/photos/member/a/f/4/7/thumb_9524871.jpeg",
+    "member_name": "Andrew Goh"
+  },
+  "rsvp_id": 1763282530,
+  "mtime": 1545780008634,
+  "event": {
+    "event_name": "Thursday Pickup soccer night ",
+    "event_id": "257519725",
+    "time": 1545955200000,
+    "event_url": "https://www.meetup.com/SUSA-Bubble-Lindenhurst-Soccer-Meetup-Club/events/257519725/"
+  },
+  "group": {
+    "group_topics": [
+      {
+        "urlkey": "co-ed-soccer",
+        "topic_name": "Co-ed Soccer"
+      },
+      {
+        "urlkey": "excercise",
+        "topic_name": "Exercise"
+      },
+      {
+        "urlkey": "coed-soccer",
+        "topic_name": "Coed Soccer"
+      },
+      {
+        "urlkey": "sports",
+        "topic_name": "Sports and Recreation"
+      },
+      {
+        "urlkey": "pickupsoccer",
+        "topic_name": "Pick-Up Soccer"
+      },
+      {
+        "urlkey": "soccer",
+        "topic_name": "Soccer"
+      },
+      {
+        "urlkey": "sportsfans",
+        "topic_name": "Sports Fan"
+      },
+      {
+        "urlkey": "pick-up-soccer-summer",
+        "topic_name": "Pick-Up Soccer (Summer)"
+      },
+      {
+        "urlkey": "play-pickup-soccer",
+        "topic_name": "Play pickup Soccer"
+      },
+      {
+        "urlkey": "sports-and-socials",
+        "topic_name": "Sports and Socials"
+      },
+      {
+        "urlkey": "womens-soccer",
+        "topic_name": "women's soccer"
+      },
+      {
+        "urlkey": "futbol",
+        "topic_name": "Futbol"
+      },
+      {
+        "urlkey": "indoor-soccer",
+        "topic_name": "Indoor Soccer"
+      },
+      {
+        "urlkey": "experienced-soccer-players",
+        "topic_name": "Experienced Soccer Players"
+      },
+      {
+        "urlkey": "mens-soccer",
+        "topic_name": "Men's Soccer"
+      }
+    ],
+    "group_city": "Lindenhurst",
+    "group_country": "us",
+    "group_id": 28398124,
+    "group_name": "SUSA Bubble Lindenhurst Soccer Meetup Club",
+    "group_lon": -73.38,
+    "group_urlname": "SUSA-Bubble-Lindenhurst-Soccer-Meetup-Club",
+    "group_state": "NY",
+    "group_lat": 40.69
+  }
+}
+{
+  "venue": {
+    "venue_name": "Maria's Cantina",
+    "lon": -106.32053,
+    "lat": 31.743446,
+    "venue_id": 25811982
+  },
+  "visibility": "public",
+  "response": "yes",
+  "guests": 0,
+  "member": {
+    "member_id": 270266714,
+    "photo": "https://secure.meetupstatic.com/photos/member/a/8/8/6/thumb_283423142.jpeg",
+    "member_name": "Modesta Torres-Briseno"
+  },
+  "rsvp_id": 1763274081,
+  "mtime": 1545770541536,
+  "event": {
+    "event_name": "New Year's Eve #MovingForward",
+    "event_id": "257467242",
+    "time": 1546311600000,
+    "event_url": "https://www.meetup.com/OurTimeMovingforward/events/257467242/"
+  },
+  "group": {
+    "group_topics": [
+      {
+        "urlkey": "babyboomer",
+        "topic_name": "Baby Boomers"
+      },
+      {
+        "urlkey": "self-improvement",
+        "topic_name": "Self-Improvement"
+      },
+      {
+        "urlkey": "socialnetwork",
+        "topic_name": "Social Networking"
+      },
+      {
+        "urlkey": "over-50s",
+        "topic_name": "Over 50's"
+      }
+    ],
+    "group_city": "El Paso",
+    "group_country": "us",
+    "group_id": 30455154,
+    "group_name": "Our Time Moving Forward",
+    "group_lon": -106.49,
+    "group_urlname": "OurTimeMovingforward",
+    "group_state": "TX",
+    "group_lat": 31.76
+  }
+}
+{
+  "venue": {
+    "venue_name": "Bryggarhuset, 3tr kod 0963",
+    "lon": 0,
+    "lat": 0,
+    "venue_id": 25668466
+  },
+  "visibility": "public",
+  "response": "yes",
+  "guests": 1,
+  "member": {
+    "member_id": 270380210,
+    "photo": "https://secure.meetupstatic.com/photos/member/5/8/d/5/thumb_283462741.jpeg",
+    "member_name": "Karol"
+  },
+  "rsvp_id": 1763329268,
+  "mtime": 1545835219000,
+  "event": {
+    "event_name": "Public Speaking (svenska), Stockholm Toastmasters ",
+    "event_id": "vblgnqyxqbkc",
+    "time": 1545930900000,
+    "event_url": "https://www.meetup.com/Stockholm-Toastmasters-Meetup/events/257409798/"
+  },
+  "group": {
+    "group_topics": [
+      {
+        "urlkey": "toastmasters",
+        "topic_name": "Toastmasters"
+      },
+      {
+        "urlkey": "publicspeaking",
+        "topic_name": "Public Speaking"
+      },
+      {
+        "urlkey": "leadership",
+        "topic_name": "Leadership"
+      },
+      {
+        "urlkey": "professional-networking",
+        "topic_name": "Professional Networking"
+      },
+      {
+        "urlkey": "presentations",
+        "topic_name": "Presentations"
+      },
+      {
+        "urlkey": "communication",
+        "topic_name": "Communication"
+      },
+      {
+        "urlkey": "personal-development",
+        "topic_name": "Personal Development"
+      },
+      {
+        "urlkey": "learning",
+        "topic_name": "Learning"
+      },
+      {
+        "urlkey": "communication-skills",
+        "topic_name": "Communication Skills"
+      },
+      {
+        "urlkey": "self-empowerment",
+        "topic_name": "Self-Empowerment"
+      },
+      {
+        "urlkey": "fear-of-public-speaking",
+        "topic_name": "Fear of Public Speaking"
+      },
+      {
+        "urlkey": "getting-out-of-your-comfort-zone",
+        "topic_name": "Getting Out of your Comfort Zone"
+      },
+      {
+        "urlkey": "impromptu-speaking",
+        "topic_name": "Impromptu Speaking"
+      },
+      {
+        "urlkey": "comfort-challenges",
+        "topic_name": "Comfort Challenges"
+      }
+    ],
+    "group_city": "Stockholm",
+    "group_country": "se",
+    "group_id": 26735515,
+    "group_name": "Stockholm Toastmasters Meetup",
+    "group_lon": 18.07,
+    "group_urlname": "Stockholm-Toastmasters-Meetup",
+    "group_lat": 59.33
+  }
+}
+{
+  "venue": {
+    "venue_name": "30 Stamford St",
+    "lon": -0.106713,
+    "lat": 51.507362,
+    "venue_id": 25939500
+  },
+  "visibility": "public",
+  "response": "yes",
+  "guests": 0,
+  "member": {
+    "member_id": 270525201,
+    "photo": "https://secure.meetupstatic.com/photos/member/2/9/9/4/thumb_283510644.jpeg",
+    "member_name": "Simi "
+  },
+  "rsvp_id": 1763266060,
+  "mtime": 1545762633000,
+  "event": {
+    "event_name": "How to get 14 million organic app installs",
+    "event_id": "257400194",
+    "time": 1548352800000,
+    "event_url": "https://www.meetup.com/from-app-idea-to-funded-startup-london/events/257400194/"
+  },
+  "group": {
+    "group_topics": [
+      {
+        "urlkey": "entrepreneurship",
+        "topic_name": "Entrepreneurship"
+      },
+      {
+        "urlkey": "business-entrepreneur-networking",
+        "topic_name": "Entrepreneur Networking"
+      },
+      {
+        "urlkey": "startup-businesses",
+        "topic_name": "Startup Businesses"
+      },
+      {
+        "urlkey": "pitching",
+        "topic_name": "Pitching"
+      },
+      {
+        "urlkey": "business-pitching",
+        "topic_name": "Business Pitching"
+      },
+      {
+        "urlkey": "startup-pitching",
+        "topic_name": "Startup Pitching"
+      },
+      {
+        "urlkey": "startup-pitch-night",
+        "topic_name": "Startup Pitch Night"
+      }
+    ],
+    "group_city": "London",
+    "group_country": "gb",
+    "group_id": 27753739,
+    "group_name": "From App Idea To Funded Startup - London",
+    "group_lon": -0.1,
+    "group_urlname": "from-app-idea-to-funded-startup-london",
+    "group_lat": 51.52
+  }
+}
+{
+  "venue": {
+    "venue_name": "The L.A. Grand Hotel Downtown",
+    "lon": -118.25521,
+    "lat": 34.05437,
+    "venue_id": 25661042
+  },
+  "visibility": "public",
+  "response": "yes",
+  "guests": 1,
+  "member": {
+    "member_id": 6797297,
+    "photo": "https://secure.meetupstatic.com/photos/member/5/0/f/d/thumb_250700733.jpeg",
+    "member_name": "Sue"
+  },
+  "rsvp_id": 1763274789,
+  "mtime": 1545772029063,
+  "event": {
+    "event_name": "FREE NEW YEAR'S EVE BASH: the Biggest Meetup in the World",
+    "event_id": "256656477",
+    "time": 1546315200000,
+    "event_url": "https://www.meetup.com/losangelesfreeconcerts/events/256656477/"
+  },
+  "group": {
+    "group_topics": [
+      {
+        "urlkey": "adventure",
+        "topic_name": "Adventure"
+      },
+      {
+        "urlkey": "diningout",
+        "topic_name": "Dining Out"
+      },
+      {
+        "urlkey": "women",
+        "topic_name": "Women's Social"
+      },
+      {
+        "urlkey": "singles",
+        "topic_name": "Singles"
+      },
+      {
+        "urlkey": "livemusic",
+        "topic_name": "Live Music"
+      },
+      {
+        "urlkey": "nightlife",
+        "topic_name": "Nightlife"
+      },
+      {
+        "urlkey": "newintown",
+        "topic_name": "New In Town"
+      },
+      {
+        "urlkey": "dancing",
+        "topic_name": "Dancing"
+      },
+      {
+        "urlkey": "fun-times",
+        "topic_name": "Fun Times"
+      },
+      {
+        "urlkey": "social",
+        "topic_name": "Social"
+      },
+      {
+        "urlkey": "socialnetwork",
+        "topic_name": "Social Networking"
+      },
+      {
+        "urlkey": "outdoors",
+        "topic_name": "Outdoors"
+      },
+      {
+        "urlkey": "young-professional-singles",
+        "topic_name": "Young Professional Singles"
+      },
+      {
+        "urlkey": "music",
+        "topic_name": "Music"
+      },
+      {
+        "urlkey": "hiking",
+        "topic_name": "Hiking"
+      }
+    ],
+    "group_city": "Los Angeles",
+    "group_country": "us",
+    "group_id": 465795,
+    "group_name": "Los Angeles Free Concerts",
+    "group_lon": -118.24,
+    "group_urlname": "losangelesfreeconcerts",
+    "group_state": "CA",
+    "group_lat": 34.06
+  }
+}
+{
+  "venue": {
+    "venue_name": "Metis Community Slack",
+    "lon": 0,
+    "lat": 0,
+    "venue_id": 25607898
+  },
+  "visibility": "public",
+  "response": "yes",
+  "guests": 0,
+  "member": {
+    "member_id": 47535072,
+    "photo": "https://secure.meetupstatic.com/photos/member/b/1/c/8/thumb_66225512.jpeg",
+    "member_name": "Connie"
+  },
+  "rsvp_id": 1763273351,
+  "mtime": 1545769691000,
+  "event": {
+    "event_name": "Ask Me Anything About the Metis Beginner Python and Math for Data Science Course",
+    "event_id": "256721254",
+    "time": 1546995600000,
+    "event_url": "https://www.meetup.com/Metis-DC-Data-Science/events/256721254/"
+  },
+  "group": {
+    "group_topics": [
+      {
+        "urlkey": "ai",
+        "topic_name": "Artificial Intelligence"
+      },
+      {
+        "urlkey": "python",
+        "topic_name": "Python"
+      },
+      {
+        "urlkey": "big-data",
+        "topic_name": "Big Data"
+      },
+      {
+        "urlkey": "natural-language-processing",
+        "topic_name": "Natural Language Processing"
+      },
+      {
+        "urlkey": "career-advice-career-help-interview-skills",
+        "topic_name": "Career Advice, Career Help, Interview Skills"
+      },
+      {
+        "urlkey": "machine-learning",
+        "topic_name": "Machine Learning"
+      },
+      {
+        "urlkey": "data-visualization",
+        "topic_name": "Data Visualization"
+      },
+      {
+        "urlkey": "predictive-analytics",
+        "topic_name": "Predictive Analytics"
+      },
+      {
+        "urlkey": "science-technology-engineering-math",
+        "topic_name": "Science Technology Engineering Math"
+      },
+      {
+        "urlkey": "business-analytics",
+        "topic_name": "Business Analytics"
+      },
+      {
+        "urlkey": "data-science",
+        "topic_name": "Data Science"
+      },
+      {
+        "urlkey": "learn-to-code",
+        "topic_name": "learn to code"
+      },
+      {
+        "urlkey": "data-science-using-python",
+        "topic_name": "Data Science using Python"
+      },
+      {
+        "urlkey": "data-engineering",
+        "topic_name": "data engineering"
+      },
+      {
+        "urlkey": "data-science-for-business",
+        "topic_name": "Data Science for Business"
+      }
+    ],
+    "group_city": "Washington",
+    "group_country": "us",
+    "group_id": 24319037,
+    "group_name": "Metis: DC Data Science",
+    "group_lon": -77.02,
+    "group_urlname": "Metis-DC-Data-Science",
+    "group_state": "DC",
+    "group_lat": 38.91
+  }
+}
+{
+  "venue": {
+    "venue_name": "Panera",
+    "lon": -87.864281,
+    "lat": 42.199992,
+    "venue_id": 1143765
+  },
+  "visibility": "public",
+  "response": "yes",
+  "guests": 0,
+  "member": {
+    "member_id": 190084481,
+    "photo": "https://secure.meetupstatic.com/photos/member/9/8/9/2/thumb_250059058.jpeg",
+    "member_name": "Mandy Brown"
+  },
+  "rsvp_id": 1761202220,
+  "mtime": 1545835109595,
+  "event": {
+    "event_name": "Book club meeting 7-9 pm",
+    "event_id": "257038064",
+    "time": 1547168400000,
+    "event_url": "https://www.meetup.com/Nextdoor-Highland-Park-Book-Club/events/257038064/"
+  },
+  "group": {
+    "group_topics": [
+      {
+        "urlkey": "bookclub",
+        "topic_name": "Book Club"
+      }
+    ],
+    "group_city": "Highland Park",
+    "group_country": "us",
+    "group_id": 29855202,
+    "group_name": "Nextdoor Highland Park Book Club",
+    "group_lon": -87.81,
+    "group_urlname": "Nextdoor-Highland-Park-Book-Club",
+    "group_state": "IL",
+    "group_lat": 42.18
+  }
+}

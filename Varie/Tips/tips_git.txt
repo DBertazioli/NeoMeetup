@@ -1,0 +1,17 @@
+##Tips per configurare git per le VM
+
+1. Creare ssh-keys #dario qui magari vedi te di integrare
+
+2. Da git account, setting, SSH and GPK keys, add new ssh key (copiare key creata precedentemente)
+
+3. Clonare repo utilizzando url SSH
+
+4. Classico git clone <urlSSH> nella repo desiderata
+
+5. Al primo commit eseguire questi comandi per utilizzare 'credenziali-username' specifici anzinchè root
+
+> git config --global user.name "YourNameGitHub"
+
+> git config --global user.email github@account.it
+
+> git commit --ammend --reset-author

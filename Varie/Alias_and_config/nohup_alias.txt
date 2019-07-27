@@ -1,0 +1,15 @@
+if need to concat and nohup commands, some options:
+1)
+
+nohup $SHELL <<EOF &
+cmd1 | cmd2
+EOF
+
+2)
+
+for example using neo/cypher
+
+cat <file.cql> | nohup bash -ci 'cypher'
+
+
+where bash -ci is required since cypher is an alias
